@@ -1,0 +1,386 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Page-1 */
+
+/* Box-1 */
+.container {
+    margin: 0 auto;
+    display: flex;
+    background-color: #74C69D;
+    padding: 50px 50px 50px 60px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.hero-banner {
+    display: flex;
+    background-color: #74C69D;
+    padding: 0% 5% 0 5%;
+}
+
+.content {
+    color: white;
+    padding-bottom: 120px;
+}
+
+.hero-banner .content h5,
+.hero-banner .content h2,
+.hero-banner .content p {
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.content h5 {
+    font-size: 16px;
+    margin-top: 10%;
+}
+
+.content h2 {
+    font-size: 40px;
+}
+
+.hero-banner .content p {
+    font-size: 15px;
+}
+
+.content .primary-button {
+    padding: 10px 32px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.navbar #vector {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+/* Box-2 */
+
+.partners {
+    padding: 50px 50px;
+}
+
+.pra {
+    text-align: center;
+}
+
+.pra img,
+.pra h1,
+.pra p{
+    margin-bottom: 20px;
+}
+
+.pra h1 {
+    font-size: 30px;
+}
+
+.pra p {
+    font-size: 20px;
+    /* margin-left: 10%; */
+    margin-bottom: 40px;
+}
+
+.symbol {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn .button {
+    padding: 10px 32px;
+    border: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Box-3 */
+.section {
+    padding: 40px 100px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+}
+
+.box1,
+.box2 {
+    width: 50%;
+}
+
+.box2 {
+    margin-top: 8%;
+}
+
+.box-text1 {
+    padding-left: 40%;
+}
+
+.button1 {
+    padding: 10px 32px;
+    border: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Box-4 */
+.section1 {
+    padding: 40px 100px;
+}
+
+.card1 {
+    display: flex;
+    width: 100%;
+}
+
+.box3,
+.box4 {
+    width: 50%;
+}
+
+.box-text2 {
+    padding-right: 120px;
+    margin-top: 40%;
+}
+
+.box4 img {
+    width: 95%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+/* Box-5 */
+
+.team {
+    padding: 0px 100px;
+    margin-top: 70px;
+    text-align: center;
+   
+}
+
+.team img,
+.team h1,
+.team p{
+    margin-bottom: 20px;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+.women{
+    box-sizing: ;
+    box-shadow: 10px 20px 25px;
+    color: grey;
+    padding: 30px;
+}
+.women h3{
+    color: black;
+    padding: 20px 0px;
+}
+
+/* Box-6 */
+
+.ftr{
+    display: flex;
+    background-color: #74C69D;
+    padding: 70px 100px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.icon,.rights{
+    color: white;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* Portfolio.css */
+
+.frame{
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: center;
+   gap: 30px;
+   margin: 10px;
+}
+.frame img{
+    width: 100%;
+    height: 100%;
+}
+.btn .button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Services css */
+
+.basic-plus-pro-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 0px 50px 50px 50px;
+    
+}
+.month{
+    display: flex;
+    align-items: center;
+}
+.month h2{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+   
+}
+.month p{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+   
+}
+.basic-services{
+    box-shadow: 10px 20px 25px gray;
+    padding: 46px 30px;
+    /* border: 10px solid black; */
+}
+.basic{
+    margin-bottom: 52px;
+}
+.dolor-rs{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dolor-rs h5{
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.basic-text p{
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.lorem-right{
+    margin-bottom: 45px;
+    padding-right: 76px;
+}
+.lorem-check{
+    display: flex;
+    gap: 11px;
+}
+.lorem-right .lorem-check p{
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.lorem-right .lorem-check i{
+    color: #74C69D;
+}
+
+.service-button button{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 12px 30px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.service-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* contact css */
+
+.contact{
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+    gap:21px;
+  }
+  
+  .form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .map{
+    display: flex;
+    flex: 1;
+  }
+  .map img{
+    max-width: 100%;
+  }
+ .form input[type=submit]{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 12px 150px;
+    background-color: black;
+    color: #FFFFFF;
+ }
+  
